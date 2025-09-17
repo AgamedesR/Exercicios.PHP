@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usuarios = [];
 }
 
-// 3.Adicione o novo usuário ao array(vetor)
+// 3. Adicione o novo usuário ao array(vetor)
 $novo_id = count($usuarios) + 1; 
 $novo_usuario = [
     "id" => $novo_id,
